@@ -12,19 +12,19 @@ export default function Navbar() {
   ];
 
   const linkClass = ({ isActive }) =>
-    `text-sm font-medium transition-colors ${isActive ? 'text-amber-400 font-semibold' : 'text-zinc-400 hover:text-zinc-100'
+    `rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-zinc-100 ${isActive ? 'text-amber-700 font-semibold' : 'text-zinc-600 hover:text-zinc-950'
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
+    <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-zinc-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="text-lg font-bold tracking-wider text-zinc-100">
-            THEA <span className="text-amber-400">MONYRITHSAK</span>
+          <Link to="/" className="text-lg font-bold tracking-wider text-zinc-900">
+            THEA <span className="text-amber-700">MONYRITHSAK</span>
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-8">
             {links.map((link) => (
               <NavLink key={link.path} to={link.path} className={linkClass}>
                 {link.label}
@@ -33,11 +33,13 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 text-zinc-400 hover:text-zinc-100 focus:outline-none"
-              aria-label="Toggle Navigation Menu"
+              className="p-2 text-zinc-600 hover:text-zinc-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 rounded-md"
+              aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-expanded={isOpen}
+              aria-controls="mobile-navigation"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isOpen ? (
@@ -53,14 +55,14 @@ export default function Navbar() {
 
       {/* Mobile Menu Drawer */}
       {isOpen && (
-        <div className="md:hidden bg-zinc-900 border-b border-zinc-800 px-4 pt-2 pb-4 space-y-3">
+        <div id="mobile-navigation" className="lg:hidden bg-white border-b border-zinc-200 px-4 pt-2 pb-4 space-y-3">
           {links.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                `block text-base ${isActive ? 'text-amber-400 font-semibold' : 'text-zinc-300'}`
+                `block rounded-md px-3 py-2 text-base ${isActive ? 'text-amber-800 font-semibold bg-amber-50' : 'text-zinc-700 hover:bg-zinc-400 hover:text-zinc-950'}`
               }
             >
               {link.label}
