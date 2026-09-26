@@ -1,0 +1,32 @@
+[
+  {
+    "id": "portfolio-site",
+    "title": "Personal Task Dashboard",
+    "techStack": ["ReactJS", "Tailwind CSS", "Vite"],
+    "shortDescription": "Simple Task management site for noting down tasks",
+    "fullDescription": "This Task Dashboard is a task noting dashboard, used to note down tasks. It can be added easily, remove easily and the data will stay even if u close the tab.",
+    "vercelUrl": "https://task-manager-v1-lime.vercel.app/",
+    "githubUrl": "https://github.com/TheaSak/TaskManagerV1",
+    "imageUrl": "/images/TaskManager_interface.png"
+  },
+  {
+    "id": "ar-nail",
+    "title": "AR Nail Try-On Web Application",
+    "techStack": ["Three.js", "React", "WebXR", "Tailwind CSS"],
+    "shortDescription": "Nails try-on site ",
+    "fullDescription": "An interactive web application that can augmented reality to see different nail art designs and colors directly on nails in real-time.",
+    "vercelUrl": "https://ar-nail.vercel.app/",
+    "githubUrl": "https://github.com/TheaSak/AR-nail",
+    "imageUrl": "/images/ARNail_interface.png"
+  },
+  {
+    "id": "aba-interface",
+    "title": "ABA Bank Mobile Interface Clone",
+    "techStack": ["React Native", "Tailwind CSS", "JavaScript"],
+    "shortDescription": "An imitation of ABA bank website interface.",
+    "fullDescription": "A front-end interface of ABA bank website using only HTML and CSS.",
+    "vercelUrl": "https://aba-interface-08-04-26.vercel.app/",
+    "githubUrl": "https://github.com/TheaSak/ABA-interface-08.04.26",
+    "imageUrl": "/images/ABA_interface.png"
+  }
+]

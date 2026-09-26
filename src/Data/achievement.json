@@ -1,0 +1,26 @@
+[
+    {
+        "id": "gold-medals",
+        "title": "7x Gold Medals",
+        "competition": "National & International Academic Competitions",
+        "competitionLogo": "/images/Bright-Logo.png",
+        "medalImage": "/images/MeWMedals.jpg",
+        "description": "Awarded 7 Gold Medals across STEM competitions. (14 total medals)"
+    },
+    {
+        "id": "full-scholarships",
+        "title": "100% Full Academic Scholarships",
+        "competition": "AUPP, RUPP & CADT Grant Programs",
+        "competitionLogo": "/images/AUPP-Logo.png",
+        "medalImage": "/images/Standby.jpg",
+        "description": "Offered 100% full-tuition merit scholarships at top technology and international universities, such as AUPP, CADT and RUPP."
+    },
+    {
+        "id": "ielts-cert",
+        "title": "IELTS Academic Band 7.5",
+        "competition": "ACE (Australian Centre for Education)",
+        "competitionLogo": "/images/IELTS-Logo.png",
+        "description": "Earned an overall band score of 7.5 upon graduation.",
+        "medalImage": "/images/IELTS.png"
+    }
+]

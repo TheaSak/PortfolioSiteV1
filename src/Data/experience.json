@@ -1,0 +1,22 @@
+[
+  {
+    "id": "amt-secretary",
+    "role": "Secretary of The Head of Office",
+    "organization": "AMT (Government Organization)",
+    "period": "July 2026 - Present",
+    "description": "Managed technical audio ops for official sports events, event registration for CCAA, and media/poster design.",
+    "photos": [
+      { "url": "/images/CCAA.jpg", "caption": "CCAA event registration management" }
+    ]
+  },
+  {
+    "id": "amt-mentorship",
+    "role": "Candidate Mentorship & Invigilator",
+    "organization": "AMT Scholarship Program",
+    "period": "August 2026 - Present",
+    "description": "Guided candidates through scholarship pathways and invigilated formal scholarship examinations.",
+    "photos": [
+      { "url": "/images/Invigilator2.jpg", "caption": "Invigilating AMT scholarship exams" }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "aupp-fhsu",
+    "schoolName": "American University of Phnom Penh & Fort Hays State University",
+    "degree": "Dual Degree: B.S. in IT Management & Computer Science",
+    "gpa": "3.77 / 4.00",
+    "expectedGrad": "Expected December 2028",
+    "logoUrl": "/images/AUPP-Logo.png",
+    "schoolUrl": "https://www.aupp.edu.kh",
+    "details": "Coursework: Math for Computing, Java Programming, Management of Information Systems, Foundation of Computing"
+  },
+  {
+    "id": "ngs-sisowath",
+    "schoolName": "New Generation School of Preah Sisowath",
+    "degree": "High School Diploma (Grade A)",
+    "gpa": "4.00 / 4.00",
+    "expectedGrad": "Graduated 2024",
+    "logoUrl": "/images/NGS-Logo.png",
+    "schoolUrl": "https://preahsisowath.edu.kh/home",
+    "details": "Graduated Grade 12 with Grade A on the National Examination"
+  }
+]
